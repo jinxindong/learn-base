@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ce741d7-c091-4acb-ac40-c64e0a1af4b8" name="Default Changelist" comment="" />
+    <list default="true" id="1ce741d7-c091-4acb-ac40-c64e0a1af4b8" name="Default Changelist" comment="基于数组，实现arrayList">
+      <change afterPath="$PROJECT_DIR$/out/production/learn-base/array/ArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/learn-base/array/IArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/learn-base/search/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/Search.java" afterDir="false" />
+    </list>
+    <list id="973dcfd3-95f4-4136-96b2-54aaa7ca3152" name="ignore Changelist" comment="ignore Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored mask="*.class" />
+    <ignored path="out/production/learn-base/seek/Seek.class" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +35,46 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recursive/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="276">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/IArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/search/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,9 +85,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +99,12 @@
         <option value="$PROJECT_DIR$/src/recursive/package-info.java" />
         <option value="$PROJECT_DIR$/src/recursive/Recursive.java" />
         <option value="$PROJECT_DIR$/src/recursive/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/array/IArray.java" />
+        <option value="$PROJECT_DIR$/src/array/Array.java" />
+        <option value="$PROJECT_DIR$/src/array/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/seek/Seek.java" />
+        <option value="$PROJECT_DIR$/src/search/Seek.java" />
+        <option value="$PROJECT_DIR$/src/search/Search.java" />
       </list>
     </option>
   </component>
@@ -74,32 +130,18 @@
     <option name="jreName" value="1.7" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
-    <option name="y" value="24" />
+    <option name="x" value="174" />
+    <option name="y" value="93" />
     <option name="width" value="1245" />
     <option name="height" value="757" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn-base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -127,9 +169,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Search">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayList" />
+      <module name="learn-base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,6 +197,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.Search" />
+      <module name="learn-base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,6 +251,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Search" />
+        <item itemvalue="Application.ArrayList" />
         <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
@@ -191,19 +263,35 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ce741d7-c091-4acb-ac40-c64e0a1af4b8" name="Default Changelist" comment="" />
+      <changelist id="973dcfd3-95f4-4136-96b2-54aaa7ca3152" name="ignore Changelist" comment="" />
       <created>1558338626249</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558338626249</updated>
-      <workItem from="1558338628026" duration="3492000" />
+      <workItem from="1558338628026" duration="10033000" />
     </task>
+    <task id="LOCAL-00001" summary="提交递归练习菲波那切数列">
+      <created>1558343787870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558343787870</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基于数组，实现arrayList">
+      <created>1558349786392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558349786392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3492000" />
+    <option name="totallyTimeSpent" value="10033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="93" width="1245" height="757" extended-state="0" />
+    <frame x="174" y="93" width="1245" height="757" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -212,7 +300,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32972136" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Problems" />
@@ -240,6 +328,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交递归练习菲波那切数列" />
+    <MESSAGE value="基于数组，实现arrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于数组，实现arrayList" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/recursive/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -260,8 +353,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursive/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="276">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/IArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="39" />
         </state>
       </provider>
     </entry>
