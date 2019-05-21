@@ -35,7 +35,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7};
+        int[] array = new int[]{1, 2, 3, 4, 5, 6, 9};
         int index1 = binarySearch(array, 0, 6, 5);
         System.out.println("index1 = " + index1);
     }
