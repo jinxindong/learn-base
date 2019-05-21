@@ -40,13 +40,13 @@ public class Search {
         int end = array.length - 1;
         int middle = 0;
         for (; ; ) {
-            middle = (start + end) / 2;
+            middle = (start + end) / 2;// 中间值 每次循环都需要重新赋值
             if (value == array[middle]) {
                 return middle;
             } else if (value < array[middle]) {
-                end = middle - 1;
+                end = middle - 1;// 如果当前值小于中间值  那么中间值减1 作为end
             } else if (value > array[middle]) {
-                start = middle + 1;
+                start = middle + 1;// 如果当前值大于中间值 那么中间值加1 作为start
             }
         }
     }
