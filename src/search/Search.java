@@ -39,7 +39,7 @@ public class Search {
         int start = 0;
         int end = array.length - 1;
         int middle = 0;
-        for (; ; ) {
+        while (start <= end) {
             middle = (start + end) / 2;// 中间值 每次循环都需要重新赋值
             if (value == array[middle]) {
                 return middle;
@@ -49,6 +49,7 @@ public class Search {
                 start = middle + 1;// 如果当前值大于中间值 那么中间值加1 作为start
             }
         }
+        return -1;// 不存在则返回 -1
     }
 
     public static void main(String[] args) {
