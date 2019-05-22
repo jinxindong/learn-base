@@ -3,14 +3,14 @@ package array;
 /**
  * 数组在内存中是一段连续的内存
  * 且长度在一开始的时候就已经定好。
- * 
+ *
  * 因此涉及增删元素时，因为长度和连续问题，必须要重新开辟内存空间。
  *
  * @author Karl Jin
  * @create 2019-05-20 18:12
  */
 
-public class ArrayList implements IArray {
+public class ArrayList implements Array {
     private Object[] elements;
 
     public ArrayList() {

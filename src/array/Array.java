@@ -5,7 +5,7 @@ package array;
  * @create 2019-05-20 18:08
  */
 
-public interface IArray {
+public interface Array {
 
     /**
      * 插入一个元素
